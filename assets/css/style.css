@@ -1,0 +1,35 @@
+.nav-img{
+    width: 80px;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.part1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.part1__img{
+    width: 40vw;
+}
+
+main{
+    background-color: #E5E5D7;
+}
+
+.part1__img:hover{
+    transition: transform 1s ease-in-out; 
+}
+
+.part1__img:hover{
+    transform: rotate(360deg); 
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
